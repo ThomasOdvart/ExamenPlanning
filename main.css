@@ -1,0 +1,83 @@
+table, th, td {
+    border: 1px solid black;
+    border-color: grey;
+    border-top-color: grey;
+    border-right-color: grey;
+    border-bottom-color: grey;
+    border-left-color: grey;
+}
+
+body {
+    font-family: Calibri;
+    font-size: 14px;
+    background-color: #292d33;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 1.125rem;
+    color: #111;
+    background-color: #fff;
+    line-height: 1.6;
+}
+.Table1 tr > td:first-child {
+    color: #ff9d00 !important;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.Examen {
+    background-color: #ff9d00;
+    font-weight: 700;
+}
+.Examen:hover {
+    background-color: #ec3d45;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+tr > td:nth-child(4) > em {
+    color: #ec3d45 !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+}  
+.header {
+    font-family: Roboto,sans-serif; 
+    text-align: center;
+    margin: 55px auto 0;
+    margin-top: 55px;
+    margin-right: auto;
+    margin-bottom: 55px;
+    margin-left: auto;
+    font-weight: 700;
+}
+th, td {
+    padding-left: 5pt;
+    padding-top: 2pt;
+    padding-right: 5pt;
+    padding-bottom: 2pt;
+}
+
+.Table1 th:nth-child(2),.Table1  th:nth-child(3),.Table1 td:nth-child(2),.Table1  td:nth-child(3) {
+    min-width: 12.16mm;
+}
+.Table2 td, .Table2 th {
+    text-align: center;
+    width: 30px !important;
+}
+.Table2, .Table1 {
+    margin-right: auto;
+    margin-left: auto;
+}
+.kalender {
+    text-align: center;
+}
