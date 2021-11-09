@@ -33,6 +33,9 @@ th {
     font-weight: 700;
     font-size: 1.2rem;
 }
+h1 > a:hover{
+    color: #ec3d45;
+}
 .Examen {
     background-color: #ff9d00;
     font-weight: 700;
