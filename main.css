@@ -52,6 +52,7 @@ tr > td:nth-child(4) > em {
     font-style: normal;
     font-weight: 700;
     font-size: 1.2rem;
+    white-space: nowrap;
 }  
 .header {
     font-family: Roboto,sans-serif; 
